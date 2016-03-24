@@ -76,7 +76,7 @@ def main():
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH)
 	
 	# get a 640 x 480 window 
-	glutInitWindowSize(700, 500)
+	glutInitWindowSize(640, 480)
 	
 	# the window starts at the upper left corner of the screen 
 	glutInitWindowPosition(0, 0)
@@ -104,7 +104,7 @@ def main():
 	glutKeyboardFunc(keyPressed)
 
 	# Initialize our window. 
-	InitGL(700, 500)
+	InitGL(640, 480)
 
 	# Start Event Processing Engine	
 	glutMainLoop()
